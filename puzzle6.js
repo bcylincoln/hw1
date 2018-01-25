@@ -2,13 +2,13 @@ function goDirectionX(direction, x) {
 	var i = 0
 	while (i < x) {
 		i = i +1
-		direction
+		direction()
 	}
 }
 
 right
-var dir1 = ""
-var dir2 = ""
+var dir1;
+var dir2;
 if (getColor()=="red") {
 	dir1 = up
 } else {
@@ -20,5 +20,5 @@ if (getColor()=="red") {
 } else {
 	dir2 = right
 }
-dir2
-dir1
+dir2()
+dir1()

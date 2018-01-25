@@ -1,7 +1,7 @@
 function paintLine(direction, length) {
 	var i = 0
 	while (i < length) {
-		direction
+		direction()
 		setColor("black")
 	}
 }

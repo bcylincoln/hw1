@@ -1,12 +1,12 @@
 function direction8ThenRightX(direction, x) {
 	var i = 0
 	while (i < 8) {
-		direction
+		direction()
 		i = i + 1
 	}
 	var j = 0
-	while (i < x) {
-		right
+	while (j < x) {
+		right()
 		j = j + 1
 	}
 }

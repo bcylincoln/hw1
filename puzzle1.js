@@ -3,7 +3,7 @@ function goDirectionX(direction, x) {
 	var i = 0
 	while (i < x) {
 		i = i +1
-		direction
+		direction()
 	}
 }
 goDirectionX(down, 7)

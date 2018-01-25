@@ -2,16 +2,16 @@ function goDirectionX(direction, x) {
 	var i = 0
 	while (i < x) {
 		i = i +1
-		direction
+		direction()
 	}
 }
 
 function pattern2() {
 	goDirectionX(right, 2)
 	if (getColor() == "blue") {
-		down
+		down()
 	} else {
-		up
+		up()
 	}
 }
 var i = 0
